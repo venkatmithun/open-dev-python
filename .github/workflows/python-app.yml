@@ -37,3 +37,7 @@ jobs:
     - name: Test with pytest
       run: |
         pytest
+    - name: Run main.py
+      run: |
+        echo "Running main.py..."
+        python main.py
